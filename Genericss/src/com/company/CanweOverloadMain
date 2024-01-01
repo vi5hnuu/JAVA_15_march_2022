@@ -1,0 +1,3 @@
+Yes, We can overload the main method in java but
+JVM only calls the original main method,
+it will never call our overloaded main method.

@@ -1,0 +1,5 @@
+Legacy classes and interfaces are the classes and interfaces that formed
+the collections framework in the earlier versions of Java and how now
+been restructured or re-engineered. They are fully compatible with the
+framework. Formally are not deprecated. All legacy classes were re-engineered
+to support generic in JDK5.

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49d91dfe-7d97-4796-8d9a-ecb2f2ccf5b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="24uXQQ9YivQkKvcUpmnzjlevYFw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/JAVAFX/javafx-sdk-17.0.2/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.EvaluteExpressions">
+    <configuration name="BouncingBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BouncingBalls" />
+      <module name="CollectionsBookRevisited" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\JAVAFX\javafx-sdk-17.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvaluteExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EvaluteExpressions" />
+      <module name="CollectionsBookRevisited" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;(2+3)*5&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PriorityQueueDemo" />
+      <module name="CollectionsBookRevisited" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;(2+3)*55/2&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortStringIgnoreCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortStringIgnoreCase" />
+      <module name="CollectionsBookRevisited" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestQueue" />
+      <module name="CollectionsBookRevisited" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BouncingBalls" />
+      <item itemvalue="Application.SortStringIgnoreCase" />
+      <item itemvalue="Application.TestQueue" />
+      <item itemvalue="Application.PriorityQueueDemo" />
+      <item itemvalue="Application.EvaluteExpressions" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EvaluteExpressions" />
+        <item itemvalue="Application.PriorityQueueDemo" />
+        <item itemvalue="Application.TestQueue" />
+        <item itemvalue="Application.BouncingBalls" />
+        <item itemvalue="Application.SortStringIgnoreCase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>

@@ -1,0 +1,25 @@
+interface x{
+     void xyz(); //bydefault public
+    void mno();
+}
+
+//interface y extends x{
+//    void xyz();
+//}
+
+interface y extends x{
+    void xyz();
+    default  void mno(){
+        System.out.println("xyz");
+    }
+}
+
+class m implements y{
+//    void xyz(); //error as xyz is public level not pzckage level //attempting to assign weaker privaleges
+//    public void xyz(){};
+//    public void mno(){};
+
+    //new interface y
+    public void xyz(){};
+//    public void mno(){}; //not necessary as mno made mno made default in y...
+}

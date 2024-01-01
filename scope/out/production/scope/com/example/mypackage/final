@@ -1,0 +1,4 @@
+if i am not erong in jave if a class has constant field it has to be initilized in the initilizer list
+
+but in java it can be done in ctor
+but in c++ it has to be initilized before ctor is called.

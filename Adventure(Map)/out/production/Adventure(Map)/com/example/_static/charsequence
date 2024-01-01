@@ -1,0 +1,19 @@
+
+tl;dr
+One is an interface (CharSequence) while other is a concrete implementation of that interface (String).
+
+CharSequence animal = "cat"  // `String` object presented as the interface `CharSequence`.
+Just like ArrayList is a List, and HashMap is a Map, so too String is a CharSequence.
+
+As an interface, normally the CharSequence would be more commonly seen than String, but some twisted history resulted in the interface being defined years after the implementation. So in older APIs we often see String while in newer APIs we tend to see CharSequence used to define arguments and return types.
+
+
+
+General differences
+There are several classes which implement the CharSequence interface besides String. Among these are
+
+StringBuilder for variable-length character sequences which can be modified
+CharBuffer for fixed-length low-level character sequences which can be modified
+Any method which accepts a CharSequence can operate on all of these equally well. Any method which only accepts a String will require conversion. So using CharSequence as an argument type in all the places where you don't care about the internals is prudent. However you should use String as a return type if you actually return a String, because that avoids possible conversions of returned values if the calling method actually does require a String.
+
+Also note that maps should use String as key type, not CharSequence, as map keys must not change. In other words, sometimes the immutable nature of String is essential.
